@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Ibraheem Damilare | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="">  
+  <div   class="bg-white mt-8 relative">
+    <div id="lightbox1" class="hidden w-full h-screen absolute" style="background-color: rgb(0, 0, 0, 0.8);">
+      <div class="pt-12">
+        <div id="closed" class="pb-3 pr-64 mr-40" dir="rtl"><img class="w-4 h-4 cursor-pointer" src="../images/icon-close.svg" alt=""></div>
+        <div class=" w-2/6 h-72 m-auto rounded-lg" style="background-image: url(../images/image-product-1.jpg); background-repeat: no-repeat;
+        background-size: cover;">
+          <div class=" flex justify-between py-48">
+            <div class=" w-10 pl-3 pt-2 h-10 rounded-full bg-white cursor-pointer"><img src="../images/icon-previous.svg" alt=""></div>
+            <div class=" w-10 pl-4 pt-2 h-10 rounded-full bg-white cursor-pointer"><img src="../images/icon-next.svg" alt=""></div>
+          </div>
+        </div>
+        <div class="pl-2 grid grid-cols-4 gap-2 pt-4 w-2/6 m-auto">
+          <div id="thumb1"><img class="rounded-lg w-24" src="../images/image-product-1-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail2"><img class="rounded-lg w-24" src="../images/image-product-2-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail3"><img class="rounded-lg w-24" src="../images/image-product-3-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail4"><img class="rounded-lg w-24" src="../images/image-product-4-thumbnail.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div id="lightbox2" class="hidden w-full h-screen absolute" style="background-color: rgb(0, 0, 0, 0.8);">
+      <div class="pt-12">
+        <div id="closed" class="pb-3 pr-64 mr-40" dir="rtl"><img class="w-4 h-4 cursor-pointer" src="../images/icon-close.svg" alt=""></div>
+        <div class=" w-2/6 h-72 m-auto rounded-lg" style="background-image: url(../images/image-product-2.jpg); background-repeat: no-repeat;
+        background-size: cover;">
+          <div class=" flex justify-between py-48">
+            <div class=" w-10 pl-3 pt-2 h-10 rounded-full cursor-pointer bg-white"><img src="../images/icon-previous.svg" alt=""></div>
+            <div class=" w-10 pl-4 pt-2 h-10 rounded-full cursor-pointer bg-white"><img src="../images/icon-next.svg" alt=""></div>
+          </div>
+        </div>
+        <div class="pl-2 grid grid-cols-4 gap-2 pt-4 w-2/6 m-auto">
+          <div id="thumbnail1"><img class="rounded-lg w-24" src="../images/image-product-1-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail2"><img class="rounded-lg w-24" src="../images/image-product-2-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail3"><img class="rounded-lg w-24" src="../images/image-product-3-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail4"><img class="rounded-lg w-24" src="../images/image-product-4-thumbnail.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div id="lightbox3" class="hidden w-full h-screen absolute" style="background-color: rgb(0, 0, 0, 0.8);">
+      <div class="pt-12">
+        <div id="closed" class="pb-3 pr-64 mr-40" dir="rtl"><img class="w-4 h-4 cursor-pointer " src="../images/icon-close.svg" alt=""></div>
+        <div class=" w-2/6 h-72 m-auto rounded-lg" style="background-image: url(../images/image-product-3.jpg); background-repeat: no-repeat;
+        background-size: cover;">
+          <div class=" flex justify-between py-48">
+            <div class=" w-10 pl-3 pt-2 h-10 rounded-full cursor-pointer bg-white"><img src="../images/icon-previous.svg" alt=""></div>
+            <div class=" w-10 pl-4 pt-2 h-10 rounded-full cursor-pointer bg-white"><img src="../images/icon-next.svg" alt=""></div>
+          </div>
+        </div>
+        <div class="pl-2 grid grid-cols-4 gap-2 pt-4 w-2/6 m-auto">
+          <div id="thumbnail1"><img class="rounded-lg w-24" src="../images/image-product-1-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail2"><img class="rounded-lg w-24" src="../images/image-product-2-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail3"><img class="rounded-lg w-24" src="../images/image-product-3-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail4"><img class="rounded-lg w-24" src="../images/image-product-4-thumbnail.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div id="lightbox4" class="hidden  w-full h-screen absolute" style="background-color: rgb(0, 0, 0, 0.8);">
+      <div class="pt-12">
+        <div id="closed" class="pb-3 pr-64 mr-40" dir="rtl"><img class="w-4 h-4 cursor-pointer" src="../images/icon-close.svg" alt=""></div>
+        <div class=" w-2/6 h-72 m-auto rounded-lg" style="background-image: url(../images/image-product-4.jpg); background-repeat: no-repeat;
+        background-size: cover;">
+          <div class=" flex justify-between py-48">
+            <div class=" w-10 pl-3 pt-2 h-10 rounded-full cursor-pointer bg-white"><img src="../images/icon-previous.svg" alt=""></div>
+            <div class=" w-10 pl-4 pt-2 h-10 rounded-full cursor-pointer bg-white"><img src="../images/icon-next.svg" alt=""></div>
+          </div>
+        </div>
+        <div class="pl-2 grid grid-cols-4 gap-2 pt-4 w-2/6 m-auto">
+          <div id="thumbnail1"><img class="rounded-lg w-24" src="../images/image-product-1-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail2"><img class="rounded-lg w-24" src="../images/image-product-2-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail3"><img class="rounded-lg w-24" src="../images/image-product-3-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail4"><img class="rounded-lg w-24" src="../images/image-product-4-thumbnail.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <nav class="pb-5 ">
+      <div id="menu" class="bg-white inline-block pl-6 hidden absolute w-5/6 h-screen">
+        <div id="close" class=" pl-4 cursor-pointer "><img src="../images/icon-close.svg" alt="" ></div>
+        <ul class=" pt-12">
+          <li class="pl-4 pb-5"><a href="#">Collections</a></li>
+          <li class="pl-4 pb-5"><a href="#"> Men</a></li>
+          <li class="pl-4 pb-5"><a href="#">Women</a></li>
+          <li class="pl-4 pb-5"><a href="#">About</a></li>
+          <li class="pl-4 pb-5"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="flex justify-between bg-white ">
+        <div class="flex justify-start">
+          <div id="burger" class="pt-1 pl-6 md:hidden cursor-pointer"><img src="../images/icon-menu.svg" alt=""></div>
+          <div class="pl-5 md:pl-10"> <img src="../images/logo.svg" alt=""> </div>
+        </div>
+        <div id="test" class="hidden bg-white inline-block md:grid">
+          <ul class="md:grid md:grid-cols-5  bg-white">
+            <li class="md:pr-5"><a href="#">Collections</a></li>
+            <li class="md:pl-5"><a href="#"> Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="flex justify-apart gap-4">
+          <div id="cart" class="cursor-pointer relative ">
+            <img src="../images/icon-cart.svg" alt="">
+            <span id="cart-number" class=" w-4 h-4 flex justify-center text-xs font-bold absolute bg-orange-500 rounded-full top-0 right-0 ">0</span>
+          </div>
+          <div class="w-6 h-6 rounded-full cursor-pointer flex justify-center" style="border:2px solid orange ">
+            <img class="w-9 h-5 " src="../images/image-avatar.png" alt=""></div>
+        </div>
+      </div>
+      
+    </nav>
+    </div>  
+
+  </div>
+  <div id="empty-basket" class="pt-6 flex justify-center md:justify-end hidden absolute w-full h-screen empty">
+    <div  class="bg-white md:w-56 w-2/5 h-64 border-4 border-gray-50 mr-16">
+      <div class="h-12 border-b-2 border-gray-50 "><p class="font-bold md:text-center text-xl">Cart</p></div>
+
+    </div>
+  </div>
+  <div id="filled-basket" class="pt-6 flex justify-center absolute w-full hidden h-screen filled" 
+  style=" background-color: rgb(0, 0, 0, 0.2); backdrop-filter: blur(6px);">
+    
+      <div style=" width: 80%;" class="bg-white pl-5 h-64 ">
+        <div class="w-full h-full" >
+        <div class="h-12 border-b-2 border-gray-50 "><p class="font-bold md:text-center text-xl">Cart</p></div>
+        <div id="null" class="grid grid-cols-5 pt-6 ">
+          <div class="col-span-1 pt-2"><img src="../images/image-product-1-thumbnail.jpg" class="h-12 w-12" alt=""></div>
+          <div class="col-span-3 pt-2 font-bold">
+            <p>Autumn Limited Edition...</p> 
+            <p class="text-gray-500">$125  X <span id="display1" class="text-gray-500">0   </span><span id="multiply" class="text-black">$</span></p>
+          </div>
+          <div id="delete" class="col-span-1 pt-4 cursor-pointer"> <img src="../images/icon-delete.svg" alt=""></div>
+        </div>
+        <div>
+          <div id="checkout-btn" >
+            <div class="pt-10 cursor-pointer ">
+              <div style="background-color: orange; width: 80%;" class=" h-10 cursor-pointer rounded-lg flex justify-center">
+              <div><p class="pt-2 text-white cursor-pointer font-bold">Checkout</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    
+  </div>
+  <div class=" md:grid md:grid-cols-2 ">
+    
+      <div class="slideshow pl-5">
+        
+        <div id="slideshow1" style="background-image: url(../images/image-product-1.jpg); background-repeat: no-repeat;
+         background-size: cover;" class="h-screen md:rounded-lg">
+          <div class="md:hidden flex justify-between cursor-pointer pt-64 pl-4 pr-4">
+            <div id="previous1" class="md:hidden pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-previous.svg" alt=""></div>
+            <div id="next1" class="md:hidden pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-next.svg" alt=""></div>
+          </div>
+        </div>
+  
+        <div id="slideshow2" style="background-image: url(../images/image-product-2.jpg); background-repeat: no-repeat;
+        background-size: cover;" class="h-screen hidden">
+          <div class="flex justify-between pt-64 pl-4 pr-4">
+            <div id="previous2" class="pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-previous.svg" class="" alt=""></div>
+            <div id="next2" class="pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-next.svg" alt=""></div>
+          </div>
+        </div>
+        
+        <div id="slideshow3" style="background-image: url(../images/image-product-3.jpg); background-repeat: no-repeat;
+        background-size: cover;" class="h-screen hidden">
+          <div class="flex justify-between pt-64 pl-4 pr-4">
+            <div id="previous3" class="pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-previous.svg" alt=""></div>
+            <div id="next3" class="pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-next.svg" alt=""></div>
+          </div>
+        </div>
+        
+        <div id="slideshow4" style="background-image: url(../images/image-product-4.jpg); background-repeat: no-repeat;
+        background-size: cover;" class="h-screen hidden">
+          <div class="flex justify-between pt-64 pl-4 pr-4">
+            <div id="previous4" class="pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-previous.svg" alt=""></div>
+            <div id="next4" class="pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-next.svg" alt=""></div>
+          </div>
+        </div>
+        <div id=" thumbnail" class="md:grid md:grid-cols-4 md:gap-2 pt-2 pl-5 hidden">
+          <div  ><img id="thumbnail1" class="rounded-lg cursor-pointer" src="../images/image-product-1-thumbnail.jpg" style="border: 3px hsl(26, 100%, 55%) solid;" alt=""></div>
+          <div id="thumbnail2"><img class="rounded-lg cursor-pointer" src="../images/image-product-2-thumbnail.jpg" style="border: 3px hsl(26, 100%, 55%) solid"></div>
+          <div id="thumbnail3" ><img class="rounded-lg cursor-pointer" src="../images/image-product-3-thumbnail.jpg" style="border: 3px hsl(26, 100%, 55%) solid "></div>
+          <div id="thumbnail4" ><img class="rounded-lg cursor-pointer" src="../images/image-product-4-thumbnail.jpg" style="border: 3px hsl(26, 100%, 55%) solid"></div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div id="text-div" class="md:pl-12 pl-6 ">
+            <div>
+              <p class="text-orange-800 font-semibold md:pl-0 pl-5 pt-6 uppercase tracking-tight">Sneaker Company</p>
+              <h2 class="font-bold text-5xl">Fall Limited Edition Sneakers</h2>
+              <p class="md:w-64 w-72 text-md pt-8 text-gray-600">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+            </div>
+            <div class="grid grid-cols-4">
+              <h1 class="pt-1 font-bold text-2xl">$125.00</h1>
+              <div  class=" pt-3 w-8 grid-span-2 h-7 text-align-centre">
+                <p class="font-bold" style="background-color: hsl(25, 100%, 94%); color: hsl(26, 100%, 55%);">50%</p>
+              </div>
+              <p dir="rtl" class="pt-3 text-gray-700 line-through ">$250.00</p>
+            </div>
+            <div class="md:grid md:grid-cols-2">
+              <div class="flex justify-around w-64 pt-8 pb-5">
+                <div id="minus" class="pt-3 cursor-pointer "><img src="../images/icon-minus.svg" alt=""></div>
+                <p id="display" class="font-bold text-xl">0</p>
+                <div id="plus" class="pt-2 cursor-pointer pb-0.5"><img src="../images/icon-plus.svg" alt=""></div>
+              </div>
+              <div class="pt-4 ">
+                <div id="add-to-cart" style="background-color: orange;" class="w-64 h-16 cursor-pointer rounded-lg flex justify-center">
+                  <div class="py-4 px-2"><img src="../images/icon-cart.svg"  alt=""></div>
+                  <div><p id="add-to-cart" class="py-4 cursor-pointer text-white font-bold">Add to cart</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+  
+ 
+  <div class="attribution pt-16">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ibraheem Damilare</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
