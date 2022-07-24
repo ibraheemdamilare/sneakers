@@ -38,7 +38,16 @@ let thumbnail3 = document.getElementById('thumbnail3');
 let thumbnail4 = document.getElementById('thumbnail4');
 
 thumbnail1.addEventListener('click', () => {
-    lightbox1.classList.remove('hidden');
+    lightbox1.classList.add('md:flex');
+})
+thumbnail2.addEventListener('click', () => {
+    lightbox2.classList.remove('hidden');
+})
+thumbnail3.addEventListener('click', () => {
+    lightbox3.classList.remove('hidden');
+})
+thumbnail4.addEventListener('click', () => {
+    lightbox4.classList.remove('hidden');
 })
 
 next1.addEventListener('click', () => {
@@ -151,3 +160,5 @@ remove.addEventListener('click', () => {
 
      }
      )
+     
+     

@@ -16,21 +16,20 @@
 </head>
 <body class="">  
   <div   class="bg-white mt-8 relative">
-    <div id="lightbox1" class="hidden w-full h-screen absolute" style="background-color: rgb(0, 0, 0, 0.8);">
+    <div id="lightbox1" class="hidden flex pl-64 w-full h-screen absolute" style="background-color: rgb(0, 0, 0, 0.8);">
       <div class="pt-12">
         <div id="closed" class="pb-3 pr-64 mr-40" dir="rtl"><img class="w-4 h-4 cursor-pointer" src="../images/icon-close.svg" alt=""></div>
-        <div class=" w-2/6 h-72 m-auto rounded-lg" style="background-image: url(../images/image-product-1.jpg); background-repeat: no-repeat;
+        <div class=" w-5/6 h-72 m-auto rounded-lg" style="background-image: url(../images/image-product-1.jpg); background-repeat: no-repeat;
         background-size: cover;">
           <div class=" flex justify-between py-48">
-            <div class=" w-10 pl-3 pt-2 h-10 rounded-full bg-white cursor-pointer"><img src="../images/icon-previous.svg" alt=""></div>
-            <div class=" w-10 pl-4 pt-2 h-10 rounded-full bg-white cursor-pointer"><img src="../images/icon-next.svg" alt=""></div>
+           
           </div>
         </div>
-        <div class="pl-2 grid grid-cols-4 gap-2 pt-4 w-2/6 m-auto">
-          <div id="thumb1"><img class="rounded-lg w-24" src="../images/image-product-1-thumbnail.jpg" alt=""></div>
-          <div id="thumbnail2"><img class="rounded-lg w-24" src="../images/image-product-2-thumbnail.jpg" alt=""></div>
-          <div id="thumbnail3"><img class="rounded-lg w-24" src="../images/image-product-3-thumbnail.jpg" alt=""></div>
-          <div id="thumbnail4"><img class="rounded-lg w-24" src="../images/image-product-4-thumbnail.jpg" alt=""></div>
+        <div class="pl-2 grid grid-cols-4 gap-2 pt-4 w-5/6 m-auto">
+          <div id="thumbnail1"><img class="rounded-lg w-32" src="../images/image-product-1-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail2"><img class="rounded-lg w-32" src="../images/image-product-2-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail3"><img class="rounded-lg w-32" src="../images/image-product-3-thumbnail.jpg" alt=""></div>
+          <div id="thumbnail4"><img class="rounded-lg w-32" src="../images/image-product-4-thumbnail.jpg" alt=""></div>
         </div>
       </div>
     </div>
@@ -162,10 +161,10 @@
   </div>
   <div class=" md:grid md:grid-cols-2 ">
     
-      <div class="slideshow pl-5">
+      <div class="slideshow pl-5 md:h-80">
         
         <div id="slideshow1" style="background-image: url(../images/image-product-1.jpg); background-repeat: no-repeat;
-         background-size: cover;" class="h-screen md:rounded-lg">
+         background-size: cover;" class="md:h-full h-screen md:rounded-lg">
           <div class="md:hidden flex justify-between cursor-pointer pt-64 pl-4 pr-4">
             <div id="previous1" class="md:hidden pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-previous.svg" alt=""></div>
             <div id="next1" class="md:hidden pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-next.svg" alt=""></div>
@@ -195,7 +194,7 @@
             <div id="next4" class="pl-6 pt-6 w-16 h-16 bg-white cursor-pointer rounded-full"><img src="../images/icon-next.svg" alt=""></div>
           </div>
         </div>
-        <div id=" thumbnail" class="md:grid md:grid-cols-4 md:gap-2 pt-2 pl-5 hidden">
+        <div id=" thumbnail" class="md:grid md:grid-cols-4 md:gap-2 pt-2  hidden">
           <div  ><img id="thumbnail1" class="rounded-lg cursor-pointer" src="../images/image-product-1-thumbnail.jpg" style="border: 3px hsl(26, 100%, 55%) solid;" alt=""></div>
           <div id="thumbnail2"><img class="rounded-lg cursor-pointer" src="../images/image-product-2-thumbnail.jpg" style="border: 3px hsl(26, 100%, 55%) solid"></div>
           <div id="thumbnail3" ><img class="rounded-lg cursor-pointer" src="../images/image-product-3-thumbnail.jpg" style="border: 3px hsl(26, 100%, 55%) solid "></div>
@@ -238,10 +237,10 @@
   </div>
   
  
-  <div class="attribution pt-16">
+  <div class="attribution md:pt-48 pt-12">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Ibraheem Damilare</a>.
   </div>
-  <script src="index.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
